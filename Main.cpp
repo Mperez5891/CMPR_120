@@ -13,7 +13,7 @@ using namespace std;
 int main() {
 	// 1 Main Output
 	//////////////////////////////////
-	cout << "Dreams by Lagnston Hughes" << endl;
+	cout << "'Dreams' by Lagnston Hughes" << endl;
 	cout << endl;
 	cout << "Hold fast to dreams \n"
 			"For if dreams die   \n"
@@ -26,9 +26,9 @@ int main() {
 			"Frozen with snow" << endl;
 	cout << endl;
 	cout << "Programmed by Manuel Perez" << endl;
-	// 2 Finishing stuff
 	//////////////////////////////////
 
+	// 2 End process
 	// 2.1 pause
 	// 2.1.1 prompt
 	cout << "\nPress ENTER to finish..." << endl;
