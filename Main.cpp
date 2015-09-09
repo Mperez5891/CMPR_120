@@ -10,7 +10,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main(void) {
 	// 1 Main Output
 	//////////////////////////////////
 	cout << "'Dreams' by Lagnston Hughes" << endl;
@@ -31,7 +31,8 @@ int main() {
 	// 2 End process
 	// 2.1 pause
 	// 2.1.1 prompt
-	cout << "\nPress ENTER to finish..." << endl;
+	cout << endl;
+	cout << "Press ENTER to finish..." << endl;
 	// 2.1.2 wait for enter key
 	cin.ignore(999, '\n');
 	// 2.2 terminate
