@@ -1,9 +1,9 @@
 
  // 9/23/2015
- // Homework 03 - Mad Libs
+ // Homework 03 - Bill Generator
  //
- // This program will create an invoice
- // for a flamenco class
+ // This program will create a bill
+ // for my flamenco class
  //
 
 #include <iostream>
