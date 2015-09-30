@@ -1,5 +1,6 @@
 
  // 9/23/2015
+ // Manuel Perez
  // Homework 03 - Bill Generator
  //
  // This program will create a bill
