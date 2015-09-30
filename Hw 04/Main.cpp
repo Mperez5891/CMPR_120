@@ -65,23 +65,28 @@ int main(void) {
 		median = exchangeValue;
 	}
 
-	// 3 Pass or No Pass
+	// 3 Calculate test average
+	int testTotal = test1 + test2 + test3;
+	int numberOfTests = 3;
+	int testTotalAverage = testTotal / numberOfTests;
+
+	// 4 Pass or No Pass
 	string passOrFail;
 	if (smallest >= AVERAGE_TO_PASS && median >= AVERAGE_TO_PASS
 			&& largest >= AVERAGE_TO_PASS) {
 		passOrFail = "You pass!!";
 	} else if (smallest >= LOWEST_POSSIBLE_PASS && median >= AVERAGE_TO_PASS
-			&& largest >= AVERAGE_TO_PASS) {
+			&& largest >= AVERAGE_TO_PASS && testTotalAverage >= AVERAGE_TO_PASS) {
 		passOrFail = "Pass by compensation";
 	} else
 		passOrFail = "Fail";
 
-	// 4 Output
+	// 5 Output
 	/////////////////////////////////////////////////////////////////
 	cout << "Grade: " << passOrFail << endl;
 	/////////////////////////////////////////////////////////////////
 
-	// 5 End Process
+	// 6 End Process
 	cout << endl;
 	cout << "Press enter to exit program: " << endl;
 	cin.ignore(999, '\n');
