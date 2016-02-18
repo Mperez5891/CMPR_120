@@ -1,40 +1,45 @@
-/*
- *  Manuel Perez
- *  9/9/2015
- *  Homework 01 - A Poem
- *
- *  Write a program that outputs your
- *  name, a poem, and its author
- */
+// Manuel Perez
+// 2/25/2016
+// Homework 01 - My Poem
+// This program outputs a poem.
 
 #include <iostream>
+
 using namespace std;
 
-int main(void) {
-	// 1 Main Output
-	//////////////////////////////////
-	cout << "'Dreams' by Lagnston Hughes" << endl;
+int main(void)
+{
+	// 1 Poem
+	
+	// 1.1 Title and Author
+	cout << "\"Masks\"" << endl;
+	cout << "by Shel Silverstein" << endl;
+	
+	// Spacing
 	cout << endl;
-	cout << "Hold fast to dreams \n"
-			"For if dreams die   \n"
-			"Life is a broken-winged bird \n"
-			"That cannot fly" << endl;
+	
+	// 1.2 Body
+	cout << "She had blue skin," << endl;
+	cout << "And so did he." << endl;
+	cout << "He kept it hid" << endl;
+	cout << "And so did she." << endl;
+	cout << "They searched for blue" << endl;
+	cout << "Their whole life through, " << endl;
+	cout << "Then passed right by--" << endl;
+	cout << "And never knew. " << endl; 
+	
+	// Spacing
 	cout << endl;
-	cout << "Hold fast to dreams \n"
-			"For when dreams go  \n"
-			"Life is a barren field \n"
-			"Frozen with snow" << endl;
-	cout << endl;
-	cout << "Programmed by Manuel Perez" << endl;
-	//////////////////////////////////
 
-	// 2 End process
-	// 2.1 pause
-	// 2.1.1 prompt
+	// 2 Sign Off
+	cout << "Programmed by Manuel Perez." << endl;
+
+	// Spacing 
 	cout << endl;
-	cout << "Press ENTER to finish..." << endl;
-	// 2.1.2 wait for enter key
+
+	// 3 Pause and Terminate
+	cout << "Please press ENTER to terminate...";
 	cin.ignore(999, '\n');
-	// 2.2 terminate
+
 	return 0;
 }
